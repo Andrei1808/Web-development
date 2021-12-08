@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+<div style="background: url('https://i.ibb.co/WPpMpsv/leftside.png') 0 0 repeat-y;">
+    <div style="background: url('https://i.ibb.co/rbKmYW1/rightside.png') 100% 0 repeat-y;">
+        <div style="background: url('https://i.ibb.co/g9b8XMq/topside.png') 0 0 repeat-x;">
+            <div style="background: url('https://i.ibb.co/tYXjCyV/Slice-3.png') 0 100% repeat-x;">
+                <div style="background: url('https://i.ibb.co/YtmfLCC/Slice-4.png') 0 0 no-repeat;">
+                    <div style="background: url('https://i.ibb.co/rmgs5wH/Slice-6.png') 100% 0 no-repeat;">
+                        <div style="background: url('https://i.ibb.co/YdRsW1g/Slice-7.png') 0 100% no-repeat;">
+                            <div style="background: url('https://i.ibb.co/sFZwJVh/Slice-9.png') 100% 100% no-repeat;">
+                                <div style="padding: 80px;">
+                                    <h1>Покер</h1>
+
+                                    <p><span style="font-weight: 700;">Покер</span> (англ. poker) — карточная игра, цель
+                                        которой — выиграть ставки, собрав как можно
+                                        более
+                                        высокую покерную комбинацию, используя 4 (старый классический вариант), или 5
+                                        карт, или
+                                        вынудив
+                                        всех соперников прекратить участвовать в игре. Игра идёт с полностью или
+                                        частично
+                                        закрытыми
+                                        картами. Конкретные правила могут варьироваться в зависимости от разновидности
+                                        покера.
+                                        Обобщающими элементами всех разновидностей покера являются комбинации и наличие
+                                        торговли
+                                        в
+                                        процессе игры.
+
+                                        Ввиду того, что игрок не знает карты своих противников, покер является игрой с
+                                        неполной
+                                        информацией, как и многие другие карточные игры, в отличие от, например, шахмат,
+                                        в
+                                        которых оба
+                                        игрока видят положение всех фигур на доске.</p>
+
+                                    <h2> Комбинация в покере — стрит</h2>
+                                    <div style="border: 2px solid green;padding:20px;">
+                                        <div style="width:140px;height:190px;display: inline-block;background-image: url('https://i.ibb.co/fMDQsNk/cards.png');background-position: 0 92.3%;"></div>
+                                        <div style="width:140px;height:190px;display: inline-block;background-image: url('https://i.ibb.co/fMDQsNk/cards.png');background-position: 430px -2133px;"></div>
+                                        <div style="width:140px;height:190px;display: inline-block;background-image: url('https://i.ibb.co/fMDQsNk/cards.png');background-position:285px 773px;"></div>
+                                        <div style="width:140px;height:190px;display: inline-block;background-image: url('https://i.ibb.co/fMDQsNk/cards.png');background-position:142px 967px;"></div>
+                                        <div style="width:140px;height:190px;display: inline-block;background-image: url('https://i.ibb.co/fMDQsNk/cards.png');background-position:425px 1161px;"></div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
