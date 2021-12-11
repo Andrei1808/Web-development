@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <style>
+        .cardsborder {
+            border: 2px solid green;
+            padding: 20px;
+        }
+
+        .cards {
+            width: 140px;
+            height: 190px;
+            background-image: url('https://i.ibb.co/fMDQsNk/cards.png');
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .cards__a {
+            background-position: 0 92.3%;
+        }
+
+        .cards__k {
+            background-position: 430px -2133px;
+        }
+
+        .cards__q {
+            background-position: 285px 773px;
+        }
+
+        .cards__j {
+            background-position: 142px 967px;
+        }
+
+        .cards__10 {
+            background-position: 425px 1161px;
+        }
+
+        .game {
+            font-weight: 700;
+        }
+
+        .leftframe {
+            background: url('https://i.ibb.co/WPpMpsv/leftside.png') 0 0 repeat-y;
+        }
+
+        .rightframe {
+            background: url('https://i.ibb.co/rbKmYW1/rightside.png') 100% 0 repeat-y;
+        }
+
+        .topframe {
+            background: url('https://i.ibb.co/g9b8XMq/topside.png') 0 0 repeat-x;
+        }
+
+        .bottomside {
+            background: url('https://i.ibb.co/tYXjCyV/Slice-3.png') 0 100% repeat-x;
+        }
+
+        .cornerlefttop {
+            background: url('https://i.ibb.co/YtmfLCC/Slice-4.png') 0 0 no-repeat;
+        }
+
+        .cornerrighttop {
+            background: url('https://i.ibb.co/rmgs5wH/Slice-6.png') 100% 0 no-repeat;
+        }
+
+        .cornerleftbottom {
+            background: url('https://i.ibb.co/YdRsW1g/Slice-7.png') 0 100% no-repeat;
+        }
+
+        .cornerrightbottom {
+            background: url('https://i.ibb.co/sFZwJVh/Slice-9.png') 100% 100% no-repeat;
+        }
+
+        .textpadding {
+            padding: 80px;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="leftframe">
+    <div class="rightframe">
+        <div class="topframe">
+            <div class="bottomside">
+                <div class="cornerlefttop">
+                    <div class="cornerrighttop">
+                        <div class="cornerleftbottom">
+                            <div class="cornerrightbottom">
+                                <div class="textpadding">
+                                    <h1>Покер</h1>
+
+                                    <p><span class="game">Покер</span> (англ. poker) — карточная игра, цель
+                                        которой — выиграть ставки, собрав как можно
+                                        более
+                                        высокую покерную комбинацию, используя 4 (старый классический вариант), или 5
+                                        карт, или
+                                        вынудив
+                                        всех соперников прекратить участвовать в игре. Игра идёт с полностью или
+                                        частично
+                                        закрытыми
+                                        картами. Конкретные правила могут варьироваться в зависимости от разновидности
+                                        покера.
+                                        Обобщающими элементами всех разновидностей покера являются комбинации и наличие
+                                        торговли
+                                        в
+                                        процессе игры.
+
+                                        Ввиду того, что игрок не знает карты своих противников, покер является игрой с
+                                        неполной
+                                        информацией, как и многие другие карточные игры, в отличие от, например, шахмат,
+                                        в
+                                        которых оба
+                                        игрока видят положение всех фигур на доске.</p>
+
+                                    <h2> Комбинация в покере — стрит</h2>
+                                    <div class="cardsborder">
+                                        <div class="cards cards__a"></div>
+                                        <div class="cards cards__k"></div>
+                                        <div class="cards cards__q"></div>
+                                        <div class="cards cards__j"></div>
+                                        <div class="cards cards__10"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</html>
