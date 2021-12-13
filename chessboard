@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .body {
+            background-color: cyan;
+        }
+
+        .caption {
+            font-size: 25px;
+            font-weight: 700;
+            text-align: center;
+            margin: 15px;
+        }
+
+        .tableproperty {
+            border-collapse: collapse;
+            border: 2px solid black;
+            margin: 0 auto;
+            background-color: white;
+        }
+
+        .cell {
+            border: 1px solid grey;
+            width: 48px;
+            height: 48px;
+        }
+
+        .cell__black {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .cellnames {
+            width: 24px;
+            height: 24px;
+            text-align: center;
+        }
+
+        .cellnames__right {
+            border-left: 2px solid black;
+        }
+
+        .cellnames__left {
+            border-right: 2px solid black;
+        }
+
+        .cellnames__top {
+            border-bottom: 2px solid black;
+        }
+
+        .cellnames__bottom {
+            border-top: 2px solid black;
+        }
+
+        .chess {
+            background: url("https://i.ibb.co/T46RYMX/chess-1.png");
+        }
+
+        .chess__pawnwhite__bgblack {
+            background-position: 48px 48px;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .chess__pawnwhite__bgwhite {
+            background-position: 48px 48px;
+        }
+        .chess__horsewhite__bgblack{
+            background-position: 96px 48px;
+            background-color: rgba(0,0,0,0.5);
+        }
+        .chess__horsewhite__bgwhite{
+            background-position: 96px 48px;
+        }
+        .chess__bishopwhite__bgblack{
+            background-position: 144px 48px;
+            background-color: rgba(0,0,0,0.5);
+        }
+        .chess__bishopwhite__bgwhite{
+            background-position: 144px 48px;
+        }
+        .chess__rockwhite__bgblack{
+            background-position: 192px 48px;
+            background-color: rgba(0,0,0,0.5);
+        }
+        .chess__rockwhite__bgwhite{
+            background-position: 192px 48px;
+
+        }
+        .chess__kingwhite{
+            background-position: 240px 48px;
+            background-color: rgba(0,0,0,0.5);
+        }
+        .chess__queenwhite{
+            background-position: 288px 48px;
+        }
+
+        .chess__pawnblack__bgblack {
+            background-position: 48px 96px;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .chess__pawnblack__bgwhite {
+            background-position: 48px 96px;
+        }
+        .chess__horseblack__bgblack{
+            background-position: 96px 96px;
+            background-color: rgba(0,0,0,0.5);
+        }
+        .chess__horseblack__bgwhite{
+            background-position: 96px 96px;
+        }
+        .chess__bishopblack__bgblack{
+            background-position: 144px 96px;
+            background-color: rgba(0,0,0,0.5);
+        }
+        .chess__bishopblack__bgwhite{
+            background-position: 144px 96px;
+        }
+        .chess__rockblack__bgblack{
+            background-position: 192px 96px;
+            background-color: rgba(0,0,0,0.5);
+        }
+        .chess__rockblack__bgwhite{
+            background-position: 192px 96px;
+
+        }
+        .chess__kingblack{
+            background-position: 240px 96px;
+            background-color: rgba(0,0,0,0.5);
+        }
+        .chess__queenblack{
+            background-position: 290px 96px;
+        }
+
+    </style>
+</head>
+<body class="body">
+<table class="tableproperty">
+    <caption class="caption">Шахматы</caption>
+    <tr class="cellnames ">
+        <td></td>
+        <td class="cellnames__top">a</td>
+        <td class="cellnames__top">b</td>
+        <td class="cellnames__top">c</td>
+        <td class="cellnames__top">d</td>
+        <td class="cellnames__top">e</td>
+        <td class="cellnames__top">f</td>
+        <td class="cellnames__top">g</td>
+        <td class="cellnames__top">h</td>
+
+    </tr>
+    <tr>
+        <td class="cellnames cellnames__left">8</td>
+        <td class="cell chess chess__rockblack__bgwhite"></td>
+        <td class="cell cell__black  chess chess__horseblack__bgblack"></td>
+        <td class="cell chess chess__bishopblack__bgwhite"></td>
+        <td class="cell cell__black chess chess__kingblack"></td>
+        <td class="cell cell__black chess chess__queenblack"></td>
+        <td class="cell cell__black chess chess__bishopblack__bgblack"></td>
+        <td class="cell chess chess__horseblack__bgwhite"></td>
+        <td class="cell cell__black chess chess__rockblack__bgblack"></td>
+        <td class="cellnames cellnames__right">8</td>
+    </tr>
+    <tr>
+        <td class="cellnames cellnames__left">7</td>
+        <td class="cell cell__black chess chess__pawnblack__bgblack"></td>
+        <td class="cell chess chess__pawnblack__bgwhite"></td>
+        <td class="cell cell__black chess chess__pawnblack__bgblack"></td>
+        <td class="cell chess chess__pawnblack__bgwhite"></td>
+        <td class="cell cell__black chess chess__pawnblack__bgblack"></td>
+        <td class="cell chess chess__pawnblack__bgwhite"></td>
+        <td class="cell cell__black chess chess__pawnblack__bgblack"></td>
+        <td class="cell chess chess__pawnblack__bgwhite"></td>
+        <td class="cellnames cellnames__right">7</td>
+    </tr>
+    <tr>
+        <td class="cellnames cellnames__left">6</td>
+        <td class="cell"></td>
+        <td class="cell cell__black"></td>
+        <td class="cell"></td>
+        <td class="cell cell__black"></td>
+        <td class="cell"></td>
+        <td class="cell cell__black"></td>
+        <td class="cell"></td>
+        <td class="cell cell__black"></td>
+        <td class="cellnames cellnames__right">6</td>
+    </tr>
+    <tr>
+        <td class="cellnames cellnames__left">5</td>
+        <td class="cell cell__black"></td>
+        <td class="cell"></td>
+        <td class="cell cell__black"></td>
+        <td class="cell"></td>
+        <td class="cell cell__black"></td>
+        <td class="cell"></td>
+        <td class="cell cell__black"></td>
+        <td class="cell"></td>
+        <td class="cellnames cellnames__right">5</td>
+    </tr>
+    <tr>
+        <td class="cellnames cellnames__left">4</td>
+        <td class="cell"></td>
+        <td class="cell cell__black"></td>
+        <td class="cell"></td>
+        <td class="cell cell__black"></td>
+        <td class="cell"></td>
+        <td class="cell cell__black"></td>
+        <td class="cell"></td>
+        <td class="cell cell__black"></td>
+        <td class="cellnames cellnames__right">4</td>
+    </tr>
+    <tr>
+        <td class="cellnames cellnames__left">3</td>
+        <td class="cell cell__black"></td>
+        <td class="cell"></td>
+        <td class="cell cell__black"></td>
+        <td class="cell"></td>
+        <td class="cell cell__black"></td>
+        <td class="cell"></td>
+        <td class="cell cell__black"></td>
+        <td class="cell"></td>
+        <td class="cellnames cellnames__right">3</td>
+    </tr>
+    <tr>
+        <td class="cellnames cellnames__left">2</td>
+        <td class="cell chess chess__pawnwhite__bgwhite"></td>
+        <td class="cell chess cell__black chess__pawnwhite__bgblack"></td>
+        <td class="cell  chess chess__pawnwhite__bgwhite"></td>
+        <td class="cell chess cell__black chess__pawnwhite__bgblack "></td>
+        <td class="cell chess chess__pawnwhite__bgwhite "></td>
+        <td class="cell cell__black chess chess__pawnwhite__bgblack"></td>
+        <td class="cell chess__pawnwhite__bgwhite chess"></td>
+        <td class="cell cell__black chess chess__pawnwhite__bgblack"></td>
+        <td class="cellnames cellnames__right">2</td>
+    </tr>
+    <tr>
+
+        <td class="cellnames cellnames__left">1</td>
+        <td class="cell cell__black chess chess__rockwhite__bgblack"></td>
+        <td class="cell  chess chess__horsewhite__bgwhite"></td>
+        <td class="cell chess cell__black chess__bishopwhite__bgblack"></td>
+        <td class="cell chess chess__queenwhite"></td>
+        <td class="cell cell__black chess chess__kingwhite"></td>
+        <td class="cell chess chess__bishopwhite__bgwhite"></td>
+        <td class="cell cell__black  chess chess__horsewhite__bgblack"></td>
+        <td class="cell chess chess__rockwhite__bgwhite"></td>
+        <td class="cellnames cellnames__right">1</td>
+    </tr>
+    <tr class="cellnames">
+        <td></td>
+        <td class="cellnames__bottom">a</td>
+        <td class="cellnames__bottom">b</td>
+        <td class="cellnames__bottom">c</td>
+        <td class="cellnames__bottom">d</td>
+        <td class="cellnames__bottom">e</td>
+        <td class="cellnames__bottom">f</td>
+        <td class="cellnames__bottom">g</td>
+        <td class="cellnames__bottom">h</td>
+
+    </tr>
+
+</table>
+</body>
+</html>
