@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<style>
+        .body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .tableproperty {
+            border-collapse: collapse;
+            width: 100vw;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        .yellow {
+            background-color: yellow;
+            width: 100vw;
+            height: 25vh;
+            float: left;
+            padding: 0;
+
+        }
+
+        .green {
+            background-color: green;
+            width: 50vw;
+            height: 25vh;
+            float: left;
+            padding: 0;
+
+        }
+
+        .blue {
+            background-color: blue;
+            width: 50vw;
+            height: 25vh;
+            float: left;
+            padding: 0;
+
+        }
+
+        .orange {
+            background-color: orange;
+            width: 33vw;
+            height: 25vh;
+            float: left;
+            padding: 0;
+
+        }
+
+        .purple {
+            background-color: purple;
+            width: 34vw;
+            height: 25vh;
+            float: left;
+            padding: 0;
+
+        }
+
+        .red {
+            background-color: red;
+            width: 33vw;
+            height: 25vh;
+            float: left;
+            padding: 0;
+
+        }
+
+        .cyan {
+            background-color: cyan;
+            width: 100vw;
+            height: 25vh;
+            float: left;
+            padding: 0;
+
+        }
+    </style>
+</head>
+<body class="body">
+<table class="tableproperty">
+
+    <tr>
+        <td class="yellow" colspan="2"></td>
+    </tr>
+    <tr>
+        <td class="green" colspan="1"></td>
+        <td class="blue"></td>
+
+    </tr>
+    <tr>
+        <td class="orange"></td>
+        <td class="purple"></td>
+        <td class="red"></td>
+    </tr>
+    <tr>
+        <td class="cyan" colspan="2"></td>
+    </tr>
+</table>
+</body>
+</html>
