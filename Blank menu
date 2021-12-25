@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+    <style>
+        .body {
+            margin: 0;
+            padding: 0;
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+
+        .menubg {
+            background-color: #2d2d2d;
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .menu {
+            list-style: none;
+            display: inline-block;
+            color: white;
+            font-size: 20px;
+            position: relative;
+            width: 170px;
+            padding: 20px 5px;
+            text-align: center;
+        }
+
+        .submenu {
+            position: absolute;
+            top: 40px;
+            left: 0;
+            width: 100%;
+            display: none;
+            list-style: none;
+            font-size: 15px;
+            padding: 0;
+            margin: 23px 0 0;
+
+        }
+
+        .lowersubmenu {
+            position: absolute;
+            list-style: none;
+            top: 0;
+            left: 100%;
+            padding: 0;
+            width: 100%;
+            background-color: white;
+        }
+
+        .item {
+            font-size: 15px;
+            padding: 10px;
+            position: relative;
+        }
+
+        .menu:hover .submenu {
+            display: block;
+            color: #808080;
+            background-color: white;
+        }
+
+        .item:hover {
+            border-left: 5px solid #3F6595;
+            background-color: #C6C6C6;
+        }
+
+        .menu:hover {
+            background-color: #3F6595;
+        }
+
+        a {
+            text-decoration: none;
+            color: #808080;
+        }
+
+        .menu:before {
+            position: absolute;
+            content: " ";
+            width: 34px;
+            height: 34px;
+            top: 50%;
+            margin-top: -17px;
+            left: 0;
+
+
+        }
+
+        .menu.portfolio:before {
+            background: url("https://i.ibb.co/kGwdLyr/Untitled-1.png");
+            background-position: 34px 34px;
+            left: 0;
+
+        }
+
+        .menu.aboutus:before {
+            background: url("https://i.ibb.co/kGwdLyr/Untitled-1.png");
+            background-position: 136px 34px;
+            left: 25px;
+        }
+
+        .menu.mainpage:before {
+            background: url("https://i.ibb.co/kGwdLyr/Untitled-1.png");
+            background-position: 170px 34px;
+            left: 20px;
+        }
+
+        .menu.blog:before {
+            background: url("https://i.ibb.co/kGwdLyr/Untitled-1.png");
+            background-position: 102px 34px;
+            left: 30px;
+        }
+
+        .menu.contacts:before {
+            background: url("https://i.ibb.co/kGwdLyr/Untitled-1.png");
+            background-position: 68px 34px;
+            left: 10px;
+        }
+
+        /*
+        kak eto moshno optimizirovat
+        i pravilno raspoloshit spraiti
+        */
+
+    </style>
+</head>
+<body class="body">
+<ul class="menubg">
+    <li class="menu mainpage">Главная
+        <ul class="submenu">
+            <li class="item"><a href="#">Подменю 1</a></li>
+            <li class="item"><a href="#">Подменю 2</a></li>
+            <li class="item"><a href="#">Подменю 3</a></li>
+        </ul>
+    </li>
+    <li class="menu aboutus">О нас</li>
+    <li class="menu portfolio">Портфолио
+        <ul class="submenu">
+            <li class="item"><a href="#">Подменю</a></li>
+            <li class="item"><a href="#">Уровень 3 меню</a>
+                <ul class="lowersubmenu">
+                    <li class="item"><a href="#">Подменю 4</a></li>
+                    <li class="item"><a href="#">Подменю 5</a></li>
+                    <li class="item"><a href="#">Подменю 6</a></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li class="menu blog">Блог</li>
+    <li class="menu contacts">Контакты</li>
+</ul>
+</body>
+</html>
