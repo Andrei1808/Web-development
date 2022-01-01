@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=320, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .body {
+            padding: 0;
+            margin: 0;
+        }
+
+        .image {
+            max-width: 980px;
+            height: auto;
+            margin: 0 auto;
+        }
+        .image__property{
+            width:100%;
+            height: 100%;
+            object-fit: cover;
+
+        }
+
+        .header {
+            width: 100%;
+            height: 100px;
+            background-color: #C2C2C2;
+            margin-top: -3px;
+
+        }
+
+        .content {
+            max-width: 980px;
+            margin: 0 auto;
+
+        }
+
+        .news {
+            max-width: 22%;
+            height: 195px;
+            background-color: #F8F8F8;
+            margin: 20px 4% 20px 0;
+            position: relative;
+            float: left;
+
+
+
+        }
+
+        div.news:first-child {
+            margin-left: 0;
+        }
+
+        div.news:last-child {
+            margin-right: 0;
+        }
+
+        a {
+            text-decoration: none;
+            text-align: center;
+            color: white;
+            line-height: 35px;
+            height: 40px;
+            width: 100%;
+            background-color: #68A4C4;
+            display: inline-block;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+
+        }
+
+        .footer {
+            width: 100%;
+            background-color: #68A4C4;
+            height: 60px;
+            position: absolute;
+            margin-top: 50px;
+
+        }
+
+        .footer__bord {
+            max-width: 980px;
+            padding-top: 20px;
+            margin: 0 auto;
+            font-size: 12px;
+            color: white;
+            display: block;
+        }
+
+        p {
+            margin: 0 10px;
+            text-align: center;
+
+        }
+
+        h1 {
+            text-align: center;
+            line-height: 50px;
+            margin: 0;
+            padding: 20px;
+            font-size: 25px;
+
+        }
+
+        h2 {
+            font-size: 25px;
+            margin: 10px 10px;
+        }
+
+        h3 {
+            text-align: center;
+            margin: 20px auto;
+            font-size: 15px;
+        }
+
+        .info {
+            text-align: left;
+        }
+        .container{
+            margin:0 auto;
+        }
+        .clearfix:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        @media (max-width: 768px) {
+            .content {
+                padding: 0 10px;
+            }
+
+            .news {
+                max-width: 100%;
+                display: block;
+                margin: 0 5px;
+                float: none;
+            }
+
+            div.news:first-child {
+                margin: 30px 5px 0;
+            }
+
+            div.news:last-child {
+                margin-bottom: 50px;
+            }
+
+            h3 {
+                padding: 20px;
+            }
+
+            .footer__bord {
+                padding-left: 10px;
+            }
+
+            .image {
+                margin: 0 15px;
+            }
+
+            h2 {
+                margin: 10px 5px;
+            }
+
+            .info {
+                margin: 10px 5px;
+            }
+            h1{
+                font-size: 20px;
+            }
+        }
+
+
+    </style>
+</head>
+<body class="body">
+<div class="image"><img src="https://i.ibb.co/N27xFzQ/Slice-1.png" alt="Slice-1" class="image__property"></div>
+<div class="header"><h1> Заголовок первого уровня</h1></div>
+<div class="content">
+    <div class="container">
+        <div class="news"><h3> Новость 1 </h3>
+            <p> Lorem ipsum dolor sit amet, 3
+                consectetur adipisicing elit.<a href="#" title="news"> Читать далее</a></p></div>
+        <div class="news"><h3> Новость 2 </h3>
+            <p> Lorem ipsum dolor sit amet, 3 consectetur adipisicing elit.<a href="#" title="news"> Читать далее</a>
+            </p>
+        </div>
+        <div class="news"><h3> Новость 3 </h3>
+            <p> Lorem ipsum dolor sit amet, 3 consectetur adipisicing elit.<a href="#" title="news"> Читать далее</a>
+            </p>
+        </div>
+        <div class="news"><h3> Новость 4 </h3>
+            <p> Lorem ipsum dolor sit amet, 3 consectetur adipisicing elit.<a href="#" title="news"> Читать далее</a>
+            </p>
+        </div>
+    </div>
+    <div>
+        <h2> Что такое Lorem Ipsum?
+
+        </h2>
+        <p class="info"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda culpa delectus dicta
+            distinctio
+            dolor
+            enim est eveniet, laboriosam, laudantium nam nesciunt optio perferendis quia quod recusandae sit vitae. A
+            accusantium alias, blanditiis deserunt dolore eaque eum itaque laborum minus mollitia nulla obcaecati
+            quaerat sequi tempore tenetur veniam, voluptate voluptatem! Ab accusamus, animi commodi consequatur dolor
+            dolorem doloremque ea eius excepturi explicabo illo impedit laboriosam, minus nam nisi nostrum obcaecati
+            porro praesentium, quisquam tempora unde vel veniam voluptas voluptate voluptatem? Ab, aspernatur atque
+            delectus eveniet exercitationem ipsam ipsum, maxime nesciunt quae quidem quisquam repellendus temporibus
+            voluptatum! Accusantium alias amet delectus, error esse facilis harum magnam nihil, numquam quae ratione
+            repellat tempora? Asperiores consectetur cum dolor dolorum est ex id, impedit ipsum iusto magni mollitia
+            nam, porro provident quasi quibusdam quis recusandae rem repellat, rerum sequi. A amet atque dolores id,
+            ratione recusandae similique. Accusamus adipisci alias amet atque consectetur consequatur consequuntur
+            dolore explicabo hic illum incidunt, inventore iure labore laudantium maiores minima molestias nulla
+            praesentium provident quasi quibusdam quidem quis repudiandae saepe sunt vel veritatis voluptatem. Alias,
+            architecto autem cum deleniti deserunt doloribus enim eos esse eveniet expedita hic libero necessitatibus
+            neque officiis porro quaerat sapiente similique, sint veniam voluptas. Sequi.</p>
+        <h2> Почему он используется?
+
+        </h2>
+        <p class="info"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A asperiores eligendi, error eveniet
+            incidunt
+            laboriosam magnam molestiae molestias nam natus quia quisquam reiciendis rerum tenetur voluptatem.
+            Architecto, dolorum error illo magni quas similique vitae voluptate. Ab at expedita hic illo ipsum iure,
+            libero maiores, mollitia non nulla obcaecati optio quas qui quis recusandae saepe sapiente soluta suscipit
+            ut vero? Accusamus asperiores aspernatur consequuntur corporis cumque facilis, fugiat impedit in ipsum iure
+            magni maxime minus mollitia praesentium quam quasi quis sint tempora tempore vel? Atque consequuntur debitis
+            impedit molestias necessitatibus nostrum quaerat quas repellat tenetur veniam? Accusantium enim fuga harum
+            magni maxime molestias quibusdam tempora temporibus. Amet aperiam aut, consectetur ducimus id itaque labore
+            molestiae officiis quas recusandae, repellat sint veritatis? Aliquam beatae dignissimos ducimus hic magni
+            maxime quaerat, voluptatum! Consequuntur deserunt dignissimos doloribus dolorum error esse et facere, itaque
+            maxime minima natus omnis quis quisquam similique soluta vel vero. Accusamus autem consequatur cum
+            dignissimos enim est illo illum ipsa itaque laboriosam maiores maxime molestiae nam natus officiis pariatur
+            praesentium, quae ratione rem repudiandae sequi soluta temporibus ullam voluptas voluptate. Aliquid aperiam
+            autem beatae debitis dolorem ex in iste, iusto, minus numquam obcaecati pariatur quae quaerat quod rem
+            tempore tenetur veritatis. Asperiores cum dicta dolorum ea esse, incidunt mollitia non possimus quas sed
+            sequi voluptatem voluptatibus. Accusantium architecto commodi deleniti error, iure minima vel. A ab
+            accusamus earum eveniet, mollitia neque officiis omnis provident voluptate voluptates? Consequatur, illo,
+            recusandae? Doloremque earum facere obcaecati sed sint sunt! Inventore porro tempora temporibus vero!
+
+        </p>
+        <h2> От куда он появился?
+
+        </h2>
+        <p class="info"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium aspernatur consectetur
+            deleniti enim
+            itaque, labore nobis soluta ut vitae? Architecto consectetur cupiditate, dicta dolores ducimus error,
+            excepturi illo illum iure magnam molestias neque non quasi quo, ratione repudiandae saepe sequi similique
+            veniam vero? Doloribus earum fuga hic iure nihil optio provident qui quos ratione. Cumque in iste
+            perferendis reprehenderit velit. Asperiores commodi consectetur culpa debitis deserunt dignissimos dolore
+            earum eum pariatur praesentium quidem quos, repellat tempora tempore, temporibus. Ab accusamus alias at aut
+            dolorem, doloremque eaque eos incidunt ipsam odio ratione saepe, similique sunt velit voluptas? Accusantium
+            animi dicta, dignissimos dolore enim esse et eum id iure iusto laboriosam laborum magni modi nesciunt
+            nostrum odio officia officiis optio possimus quaerat quasi, quisquam quos ratione, recusandae repellendus
+            sint sunt tempora tenetur ullam veritatis? Animi, aut deleniti dolor, doloribus dolorum facere fuga, iure
+            laborum magni nemo nihil nostrum quae quam repudiandae sint? A accusamus, aliquam atque corporis illo illum
+            magnam maxime neque optio, quaerat ut velit voluptates. Asperiores blanditiis deleniti dolor iure magnam
+            odio possimus quam quia tempore totam! At autem cumque dicta distinctio, dolorum enim ex ipsa, libero magnam
+            mollitia odit perferendis porro possimus praesentium quidem, quod repellendus veritatis voluptas voluptate
+            voluptatibus. Eius, libero, quas. A aut dolores numquam omnis repellendus? Animi aperiam architecto
+            assumenda autem beatae consequuntur, cum distinctio, harum illum incidunt maxime minus praesentium quae quas
+            quis repellat repellendus, sint soluta tempore veritatis! Consequuntur dolorem itaque maiores nostrum
+            quibusdam repudiandae! Autem corporis cum dolorem eaque neque nulla omnis. Alias debitis excepturi fugiat id
+            necessitatibus nihil pariatur sint tempore velit voluptate! Aliquid aperiam assumenda dicta distinctio
+            ducimus ea exercitationem explicabo facilis, harum hic itaque maiores molestiae natus nesciunt, nobis
+            officiis optio porro possimus quam qui quisquam ratione, reprehenderit sapiente soluta temporibus veniam
+            veritatis. Cumque delectus itaque nisi ullam unde! Ab consequuntur ducimus eum, fuga magnam molestiae nemo,
+            officiis quasi quidem quis reprehenderit tenetur voluptas. Alias autem esse, est labore maxime minus non
+            tenetur vitae. Ab animi, cumque dolores doloribus eum laboriosam maxime nam neque obcaecati omnis pariatur
+            rem sapiente sequi soluta vel voluptate voluptatem voluptatibus? Cumque ipsam quis ratione.</p>
+        <h2> Где его взять?
+
+        </h2>
+        <p class="info"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, alias autem cupiditate debitis
+            dolore
+            esse eum
+            facere labore nemo nesciunt odio officiis omnis, perferendis praesentium quae quas quibusdam, quisquam
+            reprehenderit tempore vel. Aliquid fugit nihil nobis. Autem beatae ea iure laudantium odio placeat quis.
+            Exercitationem minima nisi quis reprehenderit tempore? Autem consectetur expedita illo minus modi
+            necessitatibus nemo porro, possimus quaerat quibusdam rem veniam. Alias amet autem beatae deserunt,
+            dignissimos, distinctio dolorum error laudantium nobis qui, repellat reprehenderit sapiente sequi vero
+            voluptates? Accusantium architecto beatae cupiditate dolor eius eveniet illum ipsa laboriosam laborum libero
+            necessitatibus neque nisi non odio pariatur perferendis perspiciatis quam quas quasi quis quisquam, quos
+            ratione rem repellat reprehenderit sunt tempore veniam vero voluptas voluptate. Architecto, corporis cumque
+            deleniti deserunt doloribus eius esse ex explicabo fugit incidunt ipsa libero maxime natus nihil officia
+            officiis perferendis placeat porro quos, recusandae rem repellat repellendus repudiandae sequi ut veniam
+            veritatis. Cum, natus, suscipit? Consectetur doloremque possimus quaerat quo tenetur ut, vero! Ad,
+            asperiores commodi corporis cupiditate deserunt distinctio doloremque eos error ex expedita hic, iure
+            laborum molestiae molestias natus nobis nulla odio placeat possimus quaerat quas quibusdam sapiente sequi
+            sint voluptates! Blanditiis distinctio excepturi magni molestias natus provident unde voluptate!
+
+        </p>
+    </div>
+</div>
+<div class="footer">
+    <div class="footer__bord"> &copy; Копирайт 2017</div>
+</div>
+</div>
+</body>
+</html>
