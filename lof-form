@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        .body {
+            margin: 0;
+            padding: 0;
+            background: url("https://i.ibb.co/YTB7SkQ/30985120-1480.jpg");
+        }
+
+        .container {
+            height: 300px;
+            max-width: 455px;
+            margin: 100px auto;
+            background-color: white;
+            position: relative;
+
+        }
+        .shadow-left{
+            position: absolute;
+            box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+            bottom: 6px;
+            left: 2px;
+            width: 50%;
+            transform: rotate(-3deg);
+            height: 20px;
+            z-index: -1;
+        }
+        .shadow-right{
+            position: absolute;
+            box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+            bottom: 5px;
+            left: 225px;
+            width: 50%;
+            transform: rotate(3deg);
+            height: 20px;
+            z-index: -1;
+        }
+        .sticker{
+            width: 380px;
+            height: 30px;
+            background-color: rgba(0,0,0,0.3);
+            position: absolute;
+            top: -15px;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        .title {
+            font-weight: 700;
+            font-size: 10px;
+            font-family: 'Oswald', sans-serif;
+            text-transform: uppercase;
+        }
+
+        h1 {
+            text-align: center;
+            padding-top: 40px;
+        }
+
+        h1::before,
+        h1::after {
+            content: "";
+            display: inline-block;
+            vertical-align: middle;
+            width: 55px;
+            height: 2px;
+            background-color: black;
+            margin: 0 15px;
+
+        }
+
+        .wrapper {
+            height: 160px;
+            max-width: 410px;
+            margin: 0 auto;
+            background-color: #FF7E68;
+            border-radius: 10px;
+            position: relative;
+
+        }
+
+        .login-form {
+            width: 80%;
+            height: 30%;
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 80px;
+            right: 0;
+            margin: auto;
+            background-color: #FFD5CE;
+            border-radius: 10px;
+
+
+        }
+
+        .password {
+            height: auto;
+        }
+
+        .password-form {
+            width: 80%;
+            height: 30%;
+            display: block;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            background-color: #FFD5CE;
+            border-radius: 10px;
+            top: 35px;
+            right: 0;
+            margin: auto;
+
+
+        }
+
+        .btn {
+            width: 65px;
+            height: 65px;
+            padding: 0;
+            margin: 0;
+            border-radius: 50%;
+            border: 5px solid #FF7E68;
+            background-color: #FF5335;
+            position: absolute;
+            left: 330px;
+            top: 35px;
+            z-index: 1;
+            cursor: pointer;
+
+
+        }
+
+        p {
+            position: absolute;
+            top: 110px;
+            text-align: center;
+            left: 0;
+            right: 0;
+            margin-top: 20px;
+        }
+        span{
+            font-size: 40px;
+            color: white;
+            text-align: center;
+            display: block;
+            line-height: 50px;
+            margin: 0 ;
+            width: 55px;
+            height: 55px;
+            border-radius: 50%;
+        }
+        a{
+            text-decoration: none;
+            font-weight: 700;
+        }
+
+        .btn:focus{
+            position: relative;
+            top: 35px;
+            left: 330px;
+            cursor: pointer;
+            border: 5px solid #FF7E68;
+            background-color: #FF5335;
+        }
+        .btn:active{
+            position: relative;
+            top: 35px;
+            left: 335px;
+            box-shadow: 4px 4px #C76637;
+            cursor: pointer;
+            background-color: forestgreen;
+            border: 5px solid lime;
+        }
+
+    </style>
+</head>
+<body class="body">
+<div class="container">
+    <div class="sticker"></div>
+    <div class="title">
+        <h1>Авторизуйтесь</h1>
+    </div>
+    <div class="wrapper">
+        <div class="login">
+            <input type="text" class="login-form" placeholder="Логин">
+        </div>
+        <div class="password">
+            <input type="password" class="password-form" placeholder="Пароль">
+        </div>
+        <div><button class="btn"><span>&#129042;</span></button></div>
+        <p>Забыли логин и пароль?<a href="#">Напомним!</a></p>
+    </div>
+    <div class="shadow-left"></div>
+    <div class="shadow-right"></div>
+</div>
+
+</body>
+</html>
